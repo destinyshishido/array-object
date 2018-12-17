@@ -34,6 +34,10 @@ console.log(myPenguin.fly());
 myPenguin["canFly"] = true;
 console.log(myPenguin.fly());
 
-console.log(Object.keys(myPenguin));
+for (x in myPenguin){
+	console.log(x);
+};
 
-// console.log(myPenguin.(keys(myPenguin));
+for (x in myPenguin){
+	console.log(myPenguin[x]);
+};
